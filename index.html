@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block description %}{% endblock description %}">
+    <meta name="author" content="Arun Ravindran">
+    <link rel="shortcut icon" href="{% static 'site/ico/favicon.ico' %}">
+
+    <title>Ultimate blogger</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <style>
+
+body{
+    height:100%;    /* For full height images */
+}
+
+.navbar-nav > li > a {
+    font-size: 16px;
+}
+
+.btn {
+    background-image: none;
+    -webkit-box-shadow: 0px 1px 0px #ddd;
+    -moz-box-shadow: 0px 1px 0px #ddd;
+    box-shadow: 0px 1px 0px #ddd;
+}
+
+
+.corporate-jumbo {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
+      url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #f5f5f5;
+    padding: 10em 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+
+.corporate-jumbo p, .corporate-jumbo h1 {
+    color: #eee;
+    text-shadow: 0px 0px 2px black;
+}
+
+.corporate-jumbo p {
+    font-weight: 500;
+}
+
+
+
+
+</style>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><strong>Ultimate blogger</strong></a>
+
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a  href="#" >About</a></li>
+      <li><a  href="#" >Log in</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+
+<a class="btn btn-default" href="#" role="button">Log in to comment</a>
+<a class="btn btn-primary" href="#" role="button">Sign up</a>
+
+  <div class="jumbotron jumbotron-carousel corporate-jumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-8">
+          <h1>Clement</h1>
+          <p>Welcome to my Blog</p>
+    <a class="btn btn-primary" href="#" role="button">Sign up for Notifications!</a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<a name="about"></a>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Andela Home Learning: Day 1</h2>
+      <p>Today is the first day of the home learning andela bootcamp.I would not call it the best. Why do I say this? Well l will let you know why. But wait, something about ... </p>
+      <p><a class="btn btn-primary" href="https://medium.com/@clementm916/day-i-e6a127a7088c#.b3hixlt0m" role="button">Read more &raquo;</a></p>
+    </div>
+    <div class="col-lg-6">
+      <h2>Andela Home Learning: Day 2</h2>
+      <p>Hello reader, it is the second day of the andela home learning bootcamp.
+Today I my have code ready and Andelabs are working smoothly. I have submitted my two labs and the learning output for HTTP and WEB outcome. For the learning output I was supposed to consume a public API using a python http client module</p>
+      <p><a class="btn btn-primary" href="" role="button">Read more &raquo;</a></p>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+
+
+      </div>
+
+    </div>
+      <a name="contact"></a>
+      <div class="container">
+            <div class="footer">
+        <div class="row">
+          <div class="col-lg-6">
+              <p>&copy; clement</p>
+          </div>
+          <div class="col-lg-6 text-right">
+            Connect with me on
+            <a href="http://www.fb.com/clemm.mwendwa"></i> Facebook</a> or
+            <a href="http://www.twitter.com/clementm916">Twitter</a>
+          </div>
+        </div>
+            </div>
+      </div>
+
+
+
+  </body>
+
+</html>
